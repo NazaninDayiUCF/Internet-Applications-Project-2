@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--
+Nazanin Dayi 
+Assignment 3
+11/08/2017
+CGS 3175 -->
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	tr.enlarge1{
+list-style-type:none; /*remove the bullet point*/
+margin-left:0;
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Safi Cakes</h1>
+    <p>Products</p>
+  </div>
+</div>
+
+<!--<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <li class="active"><a href="Index-Bootstrap.html">Home</a></li>
+        <li><a href="html/Product.html">Cakes Desserts Drinks</a></li>
+        <li><a href="html/Contact us.html">Contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../Index-Bootstrap.html"data-toggle="tooltip" data-placement="bottom" title="Home">Home</a></li>
+        <li><a href="Bootstrap_Theme_Online_Store.html"data-toggle="tooltip" data-placement="bottom" title="Cake Desserts Drink">Cakes Desserts Drinks</a></li>
+        <li><a href="Contactbootstrap.html"data-toggle="tooltip" data-placement="bottom" title="Contact us">Contact us</a></li>
+      
+      </ul>
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Carrot Cake </div>
+        <div class="panel-body"><img src="../images/P1013660.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$20.00</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Chocolate Cake</div>
+        <div class="panel-body"><img src="../images/P1013642.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$35.00</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">Dark Chocolate Cupcakes</div>
+        <div class="panel-body"><img src="../images/P1013645.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$30.00</div>
+      </div>
+    </div>
+	<div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Pinepple Cream Cheese Cake </div>
+        <div class="panel-body"><img src="../images/P1013623.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$20.00</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Puffy Cream</div>
+        <div class="panel-body"><img src="../images/P1013628.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$25.00</div>
+      </div>
+    </div>
+ <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">Mini cookies</div>
+        <div class="panel-body"><img src="../images/P1013942.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$20.00</div>
+      </div>
+    </div>
+	 <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Mini Strawberry Tart</div>
+        <div class="panel-body"><img src="../images/P1013939.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$25.00</div>
+      </div>
+    </div>
+ <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Almonde & Apple donuts</div>
+        <div class="panel-body"><img src="../images/P1014012.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$20.00</div>
+      </div>
+    </div>
+	 <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">Heart Cookies</div>
+        <div class="panel-body"><img src="../images/IMG_9561.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$35.00</div>
+      </div>
+    </div>
+<footer class="container-fluid text-center">
+  <p> <p> Copyright &copy; Safi Cakes </p>
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Nazanin.Dayi@gmail.com">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
+

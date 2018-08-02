@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+Nazanin Dayi 
+Assignment 3
+11/08/2017
+CGS 3175 -->
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width:50%; /* Set width to 100% */
+      margin: auto;
+      min-height:100px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 400px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+ pre{color:#F08080 ;
+font-family: "Times New Roman", Times, serif;}
+
+#the_ul { color: #34495E; list-style-image:url("images/picgifs.gif")};
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip2"]').tooltip();
+});
+</script>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Index-Bootstrap.html"data-toggle="tooltip" data-placement="bottom" title="Home">>Home</a></li>
+        <li><a href="html/Bootstrap_Theme_Online_Store.html"data-toggle="tooltip" data-placement="bottom" title="Cakes">>Cakes Desserts Drinks</a></li>
+        <li><a href="html/Contactbootstrap.html"data-toggle="tooltip" data-placement="bottom" title="Contact us">>Contact us</a></li>
+      
+      </ul>
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/p.jpg" alt="Image" height="100" width="50">
+        <div class="carousel-caption">
+          <h3>Welcome to Safi Cakes</h3>
+          <p>All Occasion Cakes & Catering</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/day.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Welcome to Safi Cakes</h3>
+          <p>All Occasion Cakes & Catering</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<meta name="author" content="Nazanin Dayi" />
+<p class="p1" >
+I make  unforgattble tasty
+</p>
+ 
+<ul id="the_ul">
+ <li> Cakes </li>
+ <li>  European Dressert </li>
+ <li>   Cookies </li>
+ <li>   Fruit Cooktails </li>
+ <li>   Finger Foods </li>
+ <p class="p1"> at home with the best natural color food ingredient ,fresh nuts, and fruit  .
+
+ </p>
+</ul>
+ <font size="4";  >
+<pre>
+<i>
+ Make your next event a special occasion with Magic Safi Catering. From our offices in Longwood, Florida, 
+ we will work closely with you from start to finish to customize all the details of your event. 
+ We are a full service caterer featuring custom menus to fit every taste and budget.
+ We also feature a full line of custom cakes and desserts as well as banquet rental items. We look forward to serving you!
+Our cakes online are made from the freshest ingredients - real eggs, sugar, flour and cream -
+then packaged with care and shipped to your door. Our time-proven shipping methods mean each cake gets to your loved
+one in perfect condition: rich, moist and delicious. 
+</i>
+</font>
+ </p>
+
+<footer class="container-fluid text-center">
+  <p> <p> Copyright &copy; Safi Cakes </p>
+</footer>
+
+</body>
+</html>
+
